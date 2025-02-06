@@ -16,7 +16,7 @@ function addTheValues(param1, param2) {
 
 // call the function a few times with different parameters
 // TO DO
-addTheValues{2, 3);
+addTheValues(2, 3);
 addThevalues("hello", 5);
 addTheValues(5, "hello");
 addTheValues("hello", "friend");
@@ -24,10 +24,9 @@ addTheValues("hello", "friend");
 // function with a local variable to display to the screen
 // TO DO
 function scopeExample(){
-	let localVariable = "This is a local variable in the scopeExample
-	() function";
+	let localVariable = "This is a local variable in the scopeExample";
 	addToPage(localVariable);
-
+}
 // do functions execute when you don't call them?
 // TO DO
 scopeExample();
@@ -48,6 +47,7 @@ function scoreBasket(){
 // TO DO
 function scoreThree(){
 	return score += 3;
+}
 // now let's call that a couple of times, then write the current score to the page
 // TO DO
 scoreBasket();
@@ -60,6 +60,7 @@ addToPage("The current score is: " + score);
 // TO DO
 function doubleMyNumber(number){
 	return number += 2;
+}
 
 // let's create a number variable and initialize it to a value of 5
 // TO DO
@@ -140,7 +141,7 @@ for (let r = 0; r < numRows; r++) {
 // TO DO
 drawBox(3, 3, "0");
 drawBox(3, 3);
-drawBox{10, 2, "a"); 
+drawBox(10, 2, "a");
 // ------------------------------------
 // CODE BELOW IS COMPLETE - DO NOT EDIT
 // ------------------------------------
